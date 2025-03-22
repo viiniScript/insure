@@ -1,0 +1,31 @@
+.header {
+  max-width: 1200px;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  margin: auto;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-menu a{
+  padding: 0.5rem 1rem;
+  color: hsl(273, 4%, 51%);
+}
+
+.nav-menu li:last-of-type a {
+  color: hsl(256, 26%, 20%);
+  border: 2px solid hsl(256, 26%, 20%);
+  margin-left: 0.5rem;
+}
