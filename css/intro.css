@@ -1,0 +1,33 @@
+.intro-container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom,rgb(45, 38, 64) 70%, transparent 70%);
+}
+
+.intro {
+  max-width: 1200px;
+  margin-top: 6rem;
+  color: #fff;
+  display: flex;
+}
+
+.intro-content {
+  flex: 1;
+}
+
+.intro-content h1 {
+  font-family: var(--titulo-fonte);
+  font-size: 6rem;
+}
+
+.intro-content p {
+  color: hsl(0, 0%, 98%);
+}
+
+.intro-img-container {
+  flex: 1;
+}
+
+.intro-img {
+  margin-left: auto;
+}
