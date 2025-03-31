@@ -22,10 +22,13 @@
 .nav-menu a{
   padding: 0.5rem 1rem;
   color: hsl(273, 4%, 51%);
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .nav-menu li:last-of-type a {
   color: hsl(256, 26%, 20%);
   border: 2px solid hsl(256, 26%, 20%);
-  margin-left: 0.5rem;
+  margin-left: 1rem;
+  padding: 1rem 3rem;
 }

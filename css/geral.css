@@ -21,7 +21,7 @@ body {
 
 img {
   max-width: 100%;
-  display: block;
+  display: inline-block;
   height: auto;
 }
 
@@ -31,6 +31,6 @@ ul {
 
 a {
   text-decoration: none;
-  display: block;
+  display: inline-block;
   color: inherit;
 }
