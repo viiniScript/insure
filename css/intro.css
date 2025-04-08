@@ -6,10 +6,11 @@
 }
 
 .intro {
-  width: 1200px;
+  width: 1180px;
   position: relative;
   margin-top: 7em;
   margin-bottom: 3rem;
+  padding-bottom: 12rem;
   color: #fff;
   display: flex;
   gap: 1rem;
@@ -83,9 +84,11 @@
 
 .bg-intro-right {
   position: absolute;
-  top: 0;
+  top: -20px;
   right: 0;
-  z-index: 10;
+  z-index: 5;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .bg-intro-left {

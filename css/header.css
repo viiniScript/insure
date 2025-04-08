@@ -1,8 +1,10 @@
 .header {
-  max-width: 1200px;
-  margin: 3rem auto;
+  max-width: 1180px;
+  margin: 2rem auto;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 50;
 }
 
 .logo {
