@@ -1,0 +1,49 @@
+.advantages {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  margin: 2rem auto 15rem auto;
+}
+
+.advantages-title {
+  font-size: 7rem;
+  font-family: var(--titulo-fonte);
+}
+
+.advantages-menu {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 10rem;
+}
+
+.advantages-menu .advantages-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.advantages-item h3 {
+  font-size: 3rem;
+  font-family: var(--titulo-fonte);
+}
+
+.advantages-item p {
+  color: hsl(273, 4%, 51%);
+}
+
+.how-we-work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(256, 26%, 20%);
+  color: hsl(0, 0%, 98%);
+  padding: 7rem;
+}
+
+.how-we-work p {
+  font-size: 6rem;
+  font-family: var(--titulo-fonte);
+  line-height: 1;
+}
+
