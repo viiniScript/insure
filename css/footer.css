@@ -1,0 +1,31 @@
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-head {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  margin-bottom: 6rem;
+  border-bottom: 1px solid hsl(273, 4%, 51%);
+}
+
+.social-media-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-content-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content-title {
+  color: hsl(273, 4%, 51%);
+}
