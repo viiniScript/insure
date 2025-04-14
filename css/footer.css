@@ -21,6 +21,8 @@
 .footer {
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+  z-index: 10;
 }
 
 .footer-head {
@@ -33,7 +35,16 @@
 
 .social-media-list {
   display: flex;
+  align-items: center;
   gap: 2rem;
+}
+
+.social-media-list img {
+  transition: transform 0.2s ease;
+}
+
+.social-media-list img:hover {
+  transform: scale(1.2);
 }
 
 .footer-content-container {
